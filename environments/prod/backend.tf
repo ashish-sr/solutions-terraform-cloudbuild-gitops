@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "anz-payments-lab-poc-5b24c4-tfstate"
     prefix = "env/prod"
   }
 }
